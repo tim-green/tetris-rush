@@ -1,0 +1,37 @@
+@import '~normalize.css/normalize.css';
+@import 'variables.scss';
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 600px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    user-select: none;
+    /*background-color: $dark-gray5;*/
+    background: linear-gradient(90deg,#c9373f 0,#930f5b);
+    color: #1d1d1d;
+}
+
+* {
+    outline-style: none;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filler {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
