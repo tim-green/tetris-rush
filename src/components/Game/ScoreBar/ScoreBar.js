@@ -11,7 +11,7 @@ export class ScoreBar extends React.Component {
 
         return (
             <div className={cn(styles.bar, { [styles.visible]: visible })}>
-                <div className={styles.title}>SCORE</div>
+                <div className={styles.title}>Score</div>
 
                 <FlashChange
                     value={score}

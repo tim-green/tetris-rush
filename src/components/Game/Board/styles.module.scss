@@ -7,10 +7,23 @@
     z-index: 5;
 }
 
-.cool {
+.tetris {
     animation: logoAnimation 2000ms infinite;
+    font-size: 37px;
+    color: $black;
+    //-webkit-text-stroke: 1 $black;
 }
 
+.instructions {
+  font-size: 25px;
+  margin: 30px 0 40px;
+  color: $black;
+}
+
+.howtostart{
+    font-size: 30px;
+
+}
 .spaceButton {
     animation: spaceButtonAnimation 500ms infinite;
 }
@@ -40,7 +53,16 @@
     }
 }
 
+.yourScore {
+    font-size:25px;
+    margin-top:12px;
+}
+
+.personalRecord{
+    font-size:15px;
+}
+
 .newRecord{
-    color: $rose4;
-    text-shadow: 1px 1px 0px white;
+    color: $red1; 
+    text-shadow: 1px 1px 0px $black;
 }

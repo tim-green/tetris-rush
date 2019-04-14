@@ -22,13 +22,13 @@ const IntroScreen = ({ active }) => (
         active={active}
         label={
             <div>
-                <div style={{ fontSize: 37, color: '#1d1d1d' }} className={styles.cool}>
+                <div className={styles.tetris}>
                     Tetris Rush
                 </div>
-                <div style={{ fontSize: 25, marginBottom: 40, color: '#293742' }}>
+                <div className={styles.instructions}>
                     You only have <br /> 5 minutes!
                 </div>
-                <div style={{ fontSize: 30 }}>
+                <div className={styles.howtostart}>
                     Press
                     <div className={styles.spaceButton}>&lt; SPACE &gt;</div>
                     to start
@@ -236,8 +236,8 @@ export class Board extends React.Component {
                                     NEW RECORD!!
                                 </div>
                             )}
-                            <div style={{ fontSize: 30 }}>Your score: {score}</div>
-                            <div style={{ fontSize: 20 }}>( Personal record: {personalRecord} )</div>
+                            <div className={styles.yourScore}>Your score: {score}</div>
+                            <div className={styles.personalRecord}>(Personal record: {personalRecord})</div>
                         </div>
                     }
                 />
