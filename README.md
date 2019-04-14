@@ -1,4 +1,4 @@
-# Not another react tetris game	
+# Tetris Rush
 
-> just another tetris game build in reactJS
+> The classic Tetris game built in React and you only got 5 minutes to your highest score
 
